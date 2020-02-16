@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+    .header.header_responsive {
+        display: block;
+    }
+    .mobile_app_tabs .nav_item {
+        width: auto;
+    }
+    .nav_item .navigation_link {
+        padding: 0 5px;
+    }
+}
+@media (max-width: 1080px) {
+    .header_wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .header {
+        position: fixed;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+}
+.nav_item {
+    position: relative;
+    margin-bottom: 0;
+    height: 70px;
+}
+
+.header {
+    height: 70px;
+    padding-right: 70px;
+    background-color: #3f4257;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 21;
+}
+
+.header_wrapper {
+    z-index: 5;
+    height: 100%;
+}
+
+.header_responsive {
+    display: none;
+}
+.mobile_app_tabs {
+    background-color: #3f4257;
+    border-bottom-color: transparent;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 7px;
+    height: 70px;
+    padding: 0 13px;
+    position: relative;
+    width: 100%;
+}
+.mobile_app_tabs .control_icon {
+    position: relative;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    fill: #fff;
+}
+
+.mobile_app_tabs svg {
+    fill: #9a9fbf;
+    height: 20px;
+    width: 24px;
+}
+
+.control_icon .label_avatar {
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    top: -12px;
+    right: -9px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.bg_blue {
+    background-color: #38a9ff;
+}
+.bg_purple {
+    background-color: #7c5ac2;
+}
+.bg_orange {
+    background-color: #ff5e3a;
+}
+
+.navigation_link {
+    height: 100%;
+    border-color: transparent;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 3px solid transparent;
+}

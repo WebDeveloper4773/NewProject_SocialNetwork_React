@@ -1,0 +1,26 @@
+.left-menu-icon {
+    fill: #9A9FBF;
+    transition: all .3s ease;
+}
+[class^="olymp-"], [class*=" -icon"] {
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    
+}
+svg {
+    overflow: hidden;
+    vertical-align: unset;
+}
+.olymp-happy-faces-icon {
+    width: 23px;
+}
+.olymp-heart-icon {
+    margin-right: 8px;
+    width: 20px;
+    height: 18px;
+}
+.olymp-magnifying-glass-icon {
+    color: #696d87;
+    fill: #696d87;
+}

@@ -1,0 +1,33 @@
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 12px;
+}
+.author_data {
+    display: inline-block;
+}
+.author_data a {
+    font-weight: 700;
+}
+.author_data a:hover {
+    text-decoration: none;
+    color: #515365;
+}
+.author_name {
+    display: inline-block;
+    color: #515365;
+    margin-bottom: 0px;
+}
+.post_date {
+    color:rgb(136, 141, 168); 
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.remove {
+    float: right;
+    font-size: 16px;
+    margin-right: 10px;
+}

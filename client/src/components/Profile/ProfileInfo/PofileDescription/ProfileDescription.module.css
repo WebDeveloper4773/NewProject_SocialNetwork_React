@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+    .top_header_description {
+        padding: 30px 0;
+        z-index: 5;
+    }
+}
+@media (max-width: 801px) {
+    .top_header_description .control_block_button {
+        right: auto;
+        top: -30px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        bottom: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+.top_header_description {
+    position: relative;
+    padding: 38px 0;
+    z-index: 3;
+}
+
+.profile_menu {
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_menu a {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    color: #9a9fbf;
+}
+
+.profile_menu li>div.active, .profile_menu li a.active {
+    color: #515365;
+}
+
+.profile-menu li>div, .profile-menu li a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #9a9fbf;
+    display: block;
+}
+
+.profile_menu a:hover {
+    text-decoration: none;
+    color: #515365;
+}
+
+.more {
+    font-size: 14px;
+    font-weight: 700;
+    fill: #c0c4d8;
+    color: #9a9fbf;
+    display: block;
+}
+
+.olymp_three_dots_icon {
+    width: 16px;
+    height: 4px;
+}
+
+.control_block_button {
+    position: absolute;
+    right: 38px;
+    top: -31px;
+}
+.control_block_button .btn_control:last-child {
+    margin-right: 0;
+}
+
+.btn_control {
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    padding: 0;
+    fill: #fff;
+    font-size: 20px;
+}
+.btn_control svg {
+    width: 21px;
+    height: 21px;
+    font-size: 20px;
+}
+.bg_blue {
+    background-color: #38a9ff;
+}
+.bg_purple {
+    background-color: #7c5ac2;
+}
+.bg_orange {
+    background-color: #ff5e3a;
+}

@@ -1,0 +1,150 @@
+@media (max-width: 1350px) {
+    .search_users.w_search {
+        max-width: 300px;
+    }
+}
+@media (max-width: 1080px) {
+    .header_wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .header .page_title {
+        display: none;
+    }
+    header.header {
+        padding-left: 70px;
+    }
+}
+@media (max-width: 801px) {
+    .search_users.w_search {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header, .fixed_sidebar {
+        display: none;
+    }
+}
+.header {
+    position: fixed;
+    height: 70px;
+    padding-right: 70px;
+    background-color: #3f4257;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 21;
+}
+.header_wrapper {
+    height: 100%;
+}
+.search_users.w_search {
+    width: 500px;
+    min-height: 70px;
+    background-color: #494c62;
+}
+.page_title {
+    padding: 26px 50px 26px 100px;
+    text-transform: uppercase;
+    float: left;
+    height: 100%;
+    min-width: 170px;
+}
+
+.page_title h6 {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.search_users {
+    width: 500px;
+    min-height: 70px;
+    background-color: #494c62;
+    float: left;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.search_users .form_group {
+    position: relative;
+    margin-bottom: 0;
+    height: 70px;
+}
+
+.search_input {
+    display: block;
+    height: 100%;
+    width: 229.859px;
+
+    border: none;
+    color: #9a9fbf;
+    background-color: transparent;
+    opacity: 1;
+
+    position: relative;
+    left: 0px;
+
+    font-size: 12px;
+    padding: 13px 15px;
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+.form_control {
+    display: block;
+    color: #515365;
+    line-height: inherit;
+    font-size: .875rem;
+    width: 100%;
+    font-weight: 400;
+    background-clip: padding-box;
+    background-color: transparent;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: none;
+    padding: 0;
+}
+.selectize_control {
+    position: relative;
+    z-index: 20;
+    height: 70px;
+}
+.form_group button {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    line-height: 100%;
+    border: none;
+    background-color: #494c62;
+    width: 50px;
+}
+.form_group button svg {
+    height: 22px;
+    width: 22px;
+}
+
+.find_friends {
+    padding: 25px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.find_friends:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+.find_friends:hover {
+    text-decoration: none;
+    color: #ff5e3a;
+}

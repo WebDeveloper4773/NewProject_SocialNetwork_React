@@ -1,0 +1,12 @@
+.footer {
+	grid-area: f;
+}
+.footer_slide {
+	width: 100vw;
+	height: 150px;
+	background-color: #112A40;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}

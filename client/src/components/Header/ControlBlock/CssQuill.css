@@ -1,0 +1,12 @@
+@media (max-width: 759px) {
+    .ql-snow .ql-tooltip {
+        position: absolute;
+        transform: translateY(14px) translateX(50%);
+    }
+}
+@media (min-width: 759px) {
+    .ql-snow .ql-tooltip {
+        position: absolute;
+        transform: translateY(14px) translateX(70%);
+    }
+}

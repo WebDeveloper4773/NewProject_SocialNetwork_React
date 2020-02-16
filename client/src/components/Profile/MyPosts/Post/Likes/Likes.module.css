@@ -1,0 +1,13 @@
+.inline_items > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.likes_icon {
+    fill: #c2c5d9;
+    color: #c2c5d9;
+}
+.likes_icon:hover {
+    text-decoration: none;
+    color: #ff5e3a;
+    fill: #ff5e3a;
+}

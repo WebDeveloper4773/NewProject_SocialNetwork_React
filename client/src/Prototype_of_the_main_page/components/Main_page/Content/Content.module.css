@@ -1,0 +1,21 @@
+.friend_items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	margin:0px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.button_left {
+	width: 50px;
+	height: 50px;
+	transform: rotate(180deg);
+}
+.button_right {
+	width: 50px;
+	height: 50px;
+}

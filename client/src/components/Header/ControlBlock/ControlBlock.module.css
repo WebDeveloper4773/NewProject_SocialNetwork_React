@@ -1,0 +1,142 @@
+@media (max-width: 1150px) {
+    .author_page .author_name {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    div.author_page {
+        margin-left: 10px;
+    }
+    .control_icon {
+        margin-right: 20px;
+    }
+}
+
+.control_block {
+    float: right;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.author_page {
+    margin-left: 50px;
+    position: relative;
+}
+.author_thumb {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 8px;
+    position: unset;
+}
+.avatar {
+    border-radius: 100%;
+    overflow: hidden;
+    display: block;
+    max-width: unset;
+    width: 36px;
+    height: 36px;
+}
+.control_icon {
+    position: relative;
+    fill: #fff;
+    margin-right: 29px;
+    margin-top: 8px;
+}
+.control_icon > svg {
+    cursor: pointer;
+    height: 20px;
+}
+.author_name {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.author_name:hover {
+    text-decoration: none;
+}
+.author_title {
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+}
+.author_title svg {
+    margin-left: 15px;
+    fill: #fff;
+    width: 6px;
+    height: 4px;
+}
+.author_subtitle {
+    display: block;
+    font-weight: 700;
+    color: #9a9fbf;
+    font-size: 8px;
+}
+.label_avatar {
+    position: absolute;
+    top: -12px;
+    right: -9px;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.bg_blue {
+    background-color: #38a9ff;
+}
+.bg_purple {
+    background-color: #7c5ac2;
+}
+.bg_orange {
+    background-color: #ff5e3a;
+}
+.more {
+    display: block;
+    position: absolute;
+    width: 230px;
+    min-height: 500px;
+    top: 10px/* calc(100% + 5px) */;
+    right: -30px;
+    padding: 0;
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+    background-color: #fff;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+    text-align: left;
+    z-index: 5;
+}
+.author_page:hover .more {
+    opacity: 1;
+    visibility: visible ;
+}
+.more:before {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    top: -7px;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    right: 25px;
+}
+.more_title {
+    border-top: none;
+    padding: 10px 25px;
+    line-height: 1;
+    border-bottom: 1px solid #e6ecf5;
+    width: 100%;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+

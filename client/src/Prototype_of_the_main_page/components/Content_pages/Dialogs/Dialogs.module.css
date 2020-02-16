@@ -1,0 +1,17 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+.dialog_items {
+    margin-right: 50px;
+}
+.messages_wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+.messages {
+    padding: 10px;
+}
+.message {
+
+}

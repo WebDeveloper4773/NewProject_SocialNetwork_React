@@ -1,0 +1,345 @@
+@keyframes sidedownscroll {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -2000px 2000px;
+    }
+}
+
+@media (max-width: 768px) {
+    div.login-container {
+        padding-top: 70px;
+    }
+}
+@media (max-width: 800px){
+    .landing-content > * {
+        margin-bottom: 20px;
+    }
+}
+
+.main .content_bg_wrap {
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: sidedownscroll;
+
+    background-image: url('https://html.crumina.net/html-olympus/img/landing-users.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+    -webkit-animation: sidedownscroll 30s linear infinite;
+    animation: sidedownscroll 30s linear infinite;
+    background-size: auto;
+}
+.content_bg_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-animation: slide 50s linear infinite;
+    animation: slide 50s linear infinite;
+}
+.content_bg_wrap:before {
+    background-color: #A21CFF;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: auto;
+}
+.display-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.registration_login_form {
+    border: 1px solid #e6ecf5;
+    border-radius: 0 5px 5px 0;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding-left: 71px;
+    margin-bottom: 20px;
+    min-height: 700px;  
+}
+.registration_login_form .nav_tabs {
+    float: left;
+    display: block;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.registration_login_form .nav_item {
+    margin-bottom: 0;
+    height: 50%;
+    display: table;
+    position: relative;
+}
+.registration_login_form .nav_link {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #e6ecf5;
+    border-right: 1px solid #e6ecf5;
+    padding: 25px;
+    color: #c0c4d8;
+    fill: #c0c4d8;
+    background-color: #fafbfd;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.registration_login_form .nav_link svg {
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+.registration_login_form .nav_link.active {
+    fill: #ff5e3a;
+    background-color: #fff;
+    border-color: #e6ecf5;
+}
+.ripple_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+}
+.registration_login_form .tab_content {
+    overflow: hidden;
+}
+.tab_content>.active {
+    display: block;
+}
+.registration_login_form .title {
+    color: #515365;
+    padding: 25px;
+    border-bottom: 1px solid #e6ecf5;
+    margin-bottom: 0;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1.4rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e6ecf5;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 1.5rem 1.1rem .5rem;
+    line-height: 1.75;
+    color: #515365;
+    line-height: inherit;
+    font-size: .875rem;
+}
+.content {
+    padding: 35px 25px;
+}
+.landing-content {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.landing-content > * {
+    color: inherit;
+    margin-bottom: 45px;
+}
+.landing-content > *:first-child {
+    font-weight: 300;
+}
+.landing-content > *:last-child {
+    margin-bottom: 0;
+}
+.c-white {
+    color: #fff;
+}
+.btn-border {
+    border: solid 2px;
+}
+.btn-md {
+    padding: 1rem 3.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.3rem;
+    position: relative;
+}
+.login-container {
+
+    padding-top: 150px;
+}
+.form-group:focus {
+    outline: 0px;
+}
+.remember {
+    margin: 35px 0 25px;
+}
+.checkbox {
+    display: inline-block;
+    margin-bottom: 0;
+} 
+.checkbox label {
+    cursor: pointer;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.checkbox input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    pointer-events: none;
+}
+.checkbox-material{
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.checkbox .checkbox-material:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.84);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    z-index: 1;
+    opacity: 0;
+    margin: 0;
+    top: 0;
+    -webkit-transform: scale3d(2.3, 2.3, 1);
+    transform: scale3d(2.3, 2.3, 1);
+}
+.checkbox.clicked input[type=checkbox]:not(:checked) + .checkbox-material:before {
+    -webkit-animation: rippleOff 500ms;
+    animation: rippleOff 500ms;
+}
+.checkbox input[type=checkbox]:checked + .checkbox-material .check {
+    background: #ff5e3a;
+}
+.checkbox .checkbox-material .check {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e6ecf5;
+    overflow: hidden;
+    z-index: 1;
+}    
+
+.checkbox .checkbox-material .check:before {
+    position: absolute;
+    content: "";
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: block;
+    margin-top: -3px;
+    margin-left: 7px;
+    width: 0;
+    height: 0;
+    background: red;
+    box-shadow: 0 0 0 0 inset;
+    -webkit-animation: checkbox-off 0.3s forwards;
+    animation: checkbox-off 0.3s forwards;
+}
+.checkbox input[type=checkbox]:checked + .checkbox-material .check:before {
+    color: #FFFFFF;
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+    -webkit-animation: checkbox-on 0.3s forwards;
+    animation: checkbox-on 0.3s forwards;
+}
+.rememberMe {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+}
+.full-width {
+    width: 100%;
+}
+.login-form .btn {
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff5e3a;
+    border-color: #ff5e3a;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff5e3a;
+    border-color: #ff5e3a;
+}
+.or {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    margin: 1rem 0 2rem 0;
+    background-color: #e6ecf5;
+}
+.or:after {
+    content: 'OR';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 0 25px;
+    font-size: 10px;
+    z-index: 5;
+}
+.bg-facebook {
+    background-color: #2f5b9d;
+}
+.bg-twitter {
+    background-color: #38bff1;
+}
+.btn-lg {
+    padding: 1rem 6rem;
+    font-size: .875rem;
+    line-height: 1.5em;
+    border-radius: .3rem;
+}
+.btn:hover {
+    color: #fff;
+}

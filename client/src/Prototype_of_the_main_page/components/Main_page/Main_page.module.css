@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box
+}
+.page_wrapper {
+	width: 100vw;
+	margin: 0px;
+	font-family: 'Chilanka', cursive;
+	background-color: #D4DBEB;
+}
+
+.content {
+	margin-bottom: 10px;
+	height: 300px;
+}
+

@@ -1,0 +1,14 @@
+.active {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.normal {
+    cursor: pointer;
+    margin-left: 5px;
+}
+.pagesNumber {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}

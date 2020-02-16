@@ -1,0 +1,10 @@
+.status_input {
+    outline: none;
+
+    color:  #888da8;
+    font-size: 15px;
+    font-weight: 400;
+    
+    width: 200px;
+    height: 20px;    
+}

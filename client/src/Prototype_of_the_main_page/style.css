@@ -1,0 +1,362 @@
+* {
+	box-sizing: border-box
+}
+body {
+	width: 100vw;
+	margin: 0px;
+	font-family: 'Chilanka', cursive;
+	background-color: #D4DBEB;
+}
+.container {
+ 	width: 100vw;
+}
+.header-slide {
+	width: 100vw;
+	background-color: #FDFCFE;
+	background-image: url('skachat-oboi-les-razreshenie-4k.png');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+.header-nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+    position: absolute;
+    left: 0;
+    top:0;
+
+    width: 100vw;
+	height: 70px;
+	padding-left: 10px;
+
+	background-color: rgba(105, 120, 140, 0.6);
+}
+.navigation {
+	position: relative;
+	align-self: flex-end;
+
+	width: 600px;
+	margin: 0px;
+}
+.nav-logo {
+	position:absolute;
+	align-self: flex-start;
+	width: 300px;
+	text-align: center;
+}
+.header-nav img {
+	width: 40px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 11px;
+}
+.nav-log .title {
+	position: absolute;
+	color: #FFB400;
+	font-size: 30px;
+}
+.navigation a {
+	display: block;
+	float: left;
+
+	width: 100px;
+	height: 20px;
+	margin-right: 10px;
+
+	text-decoration: none;
+	text-align: center;
+	color: #BF8600;
+	font-size: 20px;
+}
+.navigation a:last-child {
+	margin-right: 0px;
+}
+
+.main-header-h1 {
+	color: #BF8600;
+	font-size: 50px;
+	
+	-webkit-transition: all 1.5s 0.5s;
+    		transition: all 1.5s 0.5s;
+ }
+.content {
+	margin-bottom: 10px;
+	height: 300px;
+}
+.friend-items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	margin:0px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.friend-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	width: 200px;
+	height: 100%;
+	
+	border-radius: 7px;
+	background-color: #274659;
+	font-family: 'Roboto', sans-serif;
+	color: #0A1926;
+
+	padding: 6px;
+}
+.avaName {
+	display: flex;
+
+	width: 180px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	text-align: center;
+	align-self: center;
+}
+.friend-item .avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+
+	margin-right: 10px
+}
+.name {
+	align-self: center;
+	display: block;
+	max-width: 110px;
+	max-height: 18px;
+
+	margin:0;
+
+	font-size: 16px;
+	font-weight: 50px;
+	color: #D4DBEB;
+}
+.button-left {
+	width: 50px;
+	height: 50px;
+	transform: rotate(180deg);
+}
+.button-right {
+	width: 50px;
+	height: 50px;
+}
+
+.massage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	width: 100%;
+	height: 170px;
+}
+.massage p {
+	display: inline-block;
+	min-height: 23px;	
+	
+	padding: 5px;
+	margin: 0px;
+	
+	border-radius: 15px;
+	background-color: #69788C;
+}
+.reply {
+	align-self: center;
+
+	width: 110px;
+	height: 30px;
+
+	border: 0px;
+	border-radius: 15px;
+
+	font-size: 16px;
+	font-weight: bold;
+
+	background: linear-gradient(80deg,#A68F72, #BFA688);
+}
+.star {
+	align-self: flex-end;
+	width: 30px;
+	height: 30px;
+}
+.something {
+	background-image:url(https://images.pexels.com/photos/1498964/pexels-photo-1498964.jpeg?cs=srgb&dl=flat-lay-1498964.jpg&fm=jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.something-slide {
+	height: 800px;
+}
+.registration {
+	margin-top: 50px;
+
+	background-image:url(https://images.pexels.com/photos/1498964/pexels-photo-1498964.jpeg?cs=srgb&dl=flat-lay-1498964.jpg&fm=jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.registration-slide {
+	height: 800px;
+}
+.fog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.fog:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #D4DBEB;
+	opacity: 0.5;
+}
+.registration-slide-content {
+	display: flex;
+	justify-content: flex-start;
+
+	position: absolute;
+
+	width: 800px;
+	height: 500px;
+
+}
+.reg-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	background-image:url(https://i.pinimg.com/originals/c7/ab/15/c7ab1588b1d6218f943713f296a32397.jpg);
+	background-size: cover;
+
+	height: 100%;
+	width: 40%;
+}
+.reg-left h3 {
+	color: white;
+	font-size: 50px
+}
+.reg-left p {
+	color: white;
+	font-size: 20px;
+
+	margin-bottom: 100px
+}
+.reg-right {
+	font-family: 'Lato', sans-serif;
+	background-color: #D4DBEB;
+	color: #444;
+
+	padding: 30px;
+
+	height: 100%;
+	width: 60%;
+}
+.reg-right form {
+	display: flex;
+	flex-direction: column;
+
+	height: 100%;
+	width: 100%;
+}
+.reg-right h3 {
+	font-size: 22px;
+	
+	width: 70px;
+	margin: 0px;
+	margin-bottom: 50px;
+} 
+.username {
+	display: block;
+    padding: 9px 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    color: #666;
+    border: 2px solid #d9d9d9;
+    border-radius: 3px;
+    transition: border-color .2s ease-out;
+}
+.password {
+	display: block;
+    padding: 9px 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    color: #666;
+    border: 2px solid #E6E6E6;
+    border-radius: 3px;
+    transition: border-color .2s ease-out;
+}
+.forgot_password {
+	align-self: flex-end;
+	color: #444;
+
+	margin-bottom: 70px;
+}
+.login_signup_combo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    position: relative;
+
+    margin-bottom: 70px;
+}
+.reg-right a {
+	text-decoration: none;
+	color: #444;
+}
+.btn-login {
+    line-height: 20px;
+    min-width: 88px;
+
+    border: 0px;
+    border-radius: 5px;
+
+    text-align: center;
+	font-weight: bold;
+	color: white;
+
+	background: linear-gradient(50deg,#183940, #39B2BF);
+
+    text-transform: uppercase;
+    outline: 0;
+    padding: 8px 15px;
+}
+.form-social-links {
+	width: 400px;
+	height: 0px;
+	margin:0 auto;
+	border-top: 1px solid #808080;
+}
+.footer {
+	grid-area: f;
+}
+.footer-slide {
+	width: 100vw;
+	height: 150px;
+	background-color: #112A40;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}

@@ -1,0 +1,31 @@
+.center_block {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e6ecf5;
+    margin-bottom: 15px;
+}
+.post {
+    position: relative;
+    padding: 25px;
+    border: 1px solid #e6ecf5;
+}
+.post .postBody {
+    margin: 25px 0;
+    font-size: .875rem;
+    color:rgb(136, 141, 168);
+}
+.postBody p span {
+    display: block;
+    margin: 25px 0px;
+}
+.postBody img {
+    width: 100%;
+    display: block;
+    vertical-align: unset;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    border-radius: 5px;
+}
+
+

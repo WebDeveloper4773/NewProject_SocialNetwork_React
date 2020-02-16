@@ -1,0 +1,118 @@
+@media (max-width: 480px) {
+    .post_info .friends_line {
+        display: none;
+    }
+    .post_info .name_people_likes {
+        display: none;
+    }
+    div.post_info > * {
+        margin-right: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+         align-items: flex-start;
+    }
+    .post_info > *:last-child {
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    div.post_info > * + * {
+        margin-top: 10px;
+    }
+}
+
+.post_info > *:last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
+.post_info {
+    padding: 20px 0 0;
+    border-top: 1px solid #e6ecf5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.post_info > * {
+    margin-right: 15px;
+}
+
+.inline_items > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.friends_line {
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 0px;
+    margin-block-end: 0;
+}
+.friends_line li:first-child a {
+    margin-left: 0;
+}
+.friends_line a {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    display: block;
+    margin-left: -12px;
+}
+.friends_line img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: unset;
+    display: inline-block;
+
+}
+.friends_line ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+.friends_line li {
+    float: left;
+}
+.name_people_likes {
+    color:#888da8;
+    font-size: 12px;
+}
+.name_people_likes a {
+    color: #515365;
+    font-weight: 700;
+}
+a:hover {
+    text-decoration: none;
+}
+.comments_icons {
+    margin-top: 0px;
+    margin-right: 0;
+    margin-left: auto;
+}
+.comments_icons > * {
+    margin-right: 15px;
+}
+.post_add_icon {
+    fill: #c2c5d9;
+    color: #c2c5d9;
+}
+.post_add_icon:first-child svg {
+    width: 22px;
+    height: 20px;
+    margin-right: 8px;
+}
+.post_add_icon:last-child svg {
+    width: 26px;
+    height: 21px;
+    margin-right: 8px;
+}
+.comments_icons span {
+    color: #888da8;
+    font-size: 13px;
+}
