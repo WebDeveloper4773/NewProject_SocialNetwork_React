@@ -1,7 +1,7 @@
 import * as axios from "axios";
 
 const instanceMessageServer = axios.create({
-    baseURL: 'http://localhost:3000/api/message/',
+    baseURL: 'https://dry-inlet-92027.herokuapp.com/api/message/',
     headers: {
         'Content-Type': 'application/json'
     },
@@ -10,7 +10,7 @@ const instanceMessageServer = axios.create({
 
 
 const instanceLocalServer = axios.create({
-    baseURL: 'http://localhost:3000/api/'
+    baseURL: 'https://dry-inlet-92027.herokuapp.com/api/'
 })
 
 export const chatAPI = {

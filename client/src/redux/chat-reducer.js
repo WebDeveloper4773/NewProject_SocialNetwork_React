@@ -48,7 +48,7 @@ export const setRoom = (currentRoom) => ({ type: USERS_MESSAGES, currentRoom: cu
 export const currentUserAC = (currentUser) =>({ type: CHAT_MANAGER, currentUser:currentUser })
 
 export const setCurrentName = (username, screen) => (dispatch) => {
-    axios.post('http://localhost:8080/api/message/users', {
+    axios.post('https://dry-inlet-92027.herokuapp.com/api/message/users', {
         body: JSON.stringify({ username })
     })
       .then(response => {
@@ -62,7 +62,7 @@ export const chatManager = (username) => (dispatch) => {
       instanceLocator: 'v1:us1:a3c3748d-40c9-4409-ad19-7b6f72511fb3',
       userId: username,
       tokenProvider: new TokenProvider({
-        url: 'http://localhost:8080/api/message/authenticate',
+        url: 'https://dry-inlet-92027.herokuapp.com/api/message/authenticate',
       })
     })
 
