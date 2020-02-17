@@ -4,15 +4,15 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import store from './redux/redux-store';
 import App from './App';
-import {HashRouter} from 'react-router-dom';
+import {BrowserRouter } from 'react-router-dom';
 import {Provider} from "react-redux";
 
 let rerenderApp = (store) => {
-    ReactDOM.render(<HashRouter>
+    ReactDOM.render(<BrowserRouter basename={process.env.PUBLIC_URL}>
                         <Provider store={store}>
                             <App />
                         </Provider>
-                    </HashRouter>, document.getElementById('root'));
+                    </BrowserRouter >, document.getElementById('root'));
 }
 
 rerenderApp(store);
