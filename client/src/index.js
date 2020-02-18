@@ -12,7 +12,7 @@ let rerenderApp = (store) => {
                         <Provider store={store}>
                             <App />
                         </Provider>
-                    </HashRouter >, document.getElementById('root'));
+                    </HashRouter>, document.getElementById('root'));
 }
 
 rerenderApp(store);
