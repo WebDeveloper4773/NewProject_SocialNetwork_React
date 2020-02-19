@@ -1,3 +1,2 @@
-Social Network
-========================
+# Social Network
 
