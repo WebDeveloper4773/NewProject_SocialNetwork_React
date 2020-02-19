@@ -1,6 +1,6 @@
 Social Network
 ===============
-1. Creact your accont
+1. Create your account
 
 >![LOGIN](https://psv4.userapi.com/c856428/u164438461/docs/d18/692c4a7a86c0/Opera_Snimok_2020-02-19_183822_localhost.png?extra=cPB4Abfxg03BJBosl5cPLVL8leES0ifaFghBwo1JonIdlXTnPOszXYt3TdCC4Ok2W7N-YrkXhE29fX0GSu0lfZTqHuSgAz035thAnvR2V3c4Eh_x8rRNec969l1qmEldEbMelth0RdhoZOn8PajO8qCs)
 
