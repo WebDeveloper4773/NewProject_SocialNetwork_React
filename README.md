@@ -24,6 +24,7 @@ This project uses:
   * Koa-Passport
   * Mongoose
   * Passport-Jwt
+  * Bcryptjs
   
 
 
