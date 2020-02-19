@@ -60,10 +60,10 @@ const App = (props) => {
               <>  
                 <Route path="#" render={ () => <ProfileContainer /> }/>
                 <Route path="/Profile/:userId?" render={ () => <ProfileContainer /> }/>
-             {/*<Route path="/Messages" render={ () => <ChatApp /> }/>
+                {/* <Route path="/Messages" render={ () => <ChatApp /> }/>
                 <Route path="/Music" render={ () => <Music/> }/>
                 <Route path="/News" render={ () => <News/> }/>
-                <Route path="/Settings" render={ () => <Settings/> }/>  */}
+                <Route path="/Settings" render={ () => <Settings/> }/> */}
                 <Route path="/Users" render={ () => <UsersContainer /> }/>
               </>
           </>  

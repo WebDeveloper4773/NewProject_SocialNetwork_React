@@ -8,11 +8,11 @@ import {BrowserRouter, HashRouter } from 'react-router-dom';
 import {Provider} from "react-redux";
 
 let rerenderApp = (store) => {
-    ReactDOM.render(<HashRouter>
+    ReactDOM.render(<BrowserRouter>
                         <Provider store={store}>
                             <App />
                         </Provider>
-                    </HashRouter>, document.getElementById('root'));
+                    </BrowserRouter>, document.getElementById('root'));
 }
 
 rerenderApp(store);
