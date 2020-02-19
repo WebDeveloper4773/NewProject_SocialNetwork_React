@@ -1,6 +1,6 @@
 Social Network
 ===============
-[profile]: https://sun9-56.userapi.com/c849328/v849328545/1be3bb/Px8_MbA36Og.jpg
+![profile]: https://sun9-56.userapi.com/c849328/v849328545/1be3bb/Px8_MbA36Og.jpg
 
 Getting started
 =================
