@@ -1,6 +1,6 @@
 Social Network
 ===============
-[profile]: https://psv4.userapi.com/c856528/u164438461/docs/d4/bcd0c5f60332/Opera_Snimok_2020-02-19_175647_localhost.png?extra=ik-EwsLPmsDIbSick-GTFW6ff04aL9YEah5N-ukgzYn-TyWso0JRaLoxC_FNf8j6LwRrWWevPEi-r-t6k83-Tf8-oAUetiJeXTZK0-DScQyewYXApxKlXgDFOlcrQJULKeoK2fe2y26Ma2pCQgN65qXn
+[profile]: https://sun9-56.userapi.com/c849328/v849328545/1be3bb/Px8_MbA36Og.jpg
 
 Getting started
 =================
