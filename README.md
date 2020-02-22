@@ -10,11 +10,11 @@ Social Network
 
 3. Add posts
 
->![profilePost](https://psv4.userapi.com/c856428/u164438461/docs/d6/558808689e6b/Opera_Snimok_2020-02-19_183754_localhost.png?extra=7AFZso4w_phsPW6oEwCjZAV1SLjByIyFtbjMdMWwyO3EPz3KzsWvNAvzxPgDf6YD_zL5O74Qj_qVJurXpJvvrAMjPi1M_vjEzZY97Uvj9XGblxUJUdlZXZM4UEp3fu0GdqOpoN3hn9swDI80K9NT0fii)
+>![profilePost](https://psv4.userapi.com/c856528/u164438461/docs/d18/9485b4c9cbb1/Opera_Snimok_2020-02-22_234117_localhost.png?extra=49C-VN4BdZuyBXmszzvPyRUCfsrGEascUdjQhHOi-F8la6VXaKEpK0sppl6QFVUsdIjyK1he68cMMWFK9_ZJjbbhSu_fkgXNQjfye3mTn4SeithQu8jenooqtMhynI8UrSDc9_UqQdx1AwCRK4FyGAI)
 
 4. Checking your friends list
 
->![friends](https://psv4.userapi.com/c856428/u164438461/docs/d16/7ec056bb3c68/Opera_Snimok_2020-02-19_183908_localhost.png?extra=ZAZ9PalWrAYCdoUcgjobxszUA2-IrKrmA8E5_5i5SZTtGfPZi4aCjc-yuzXpM6CoCitSu5ZSYmxtxmhVNewZSlq0xAfqqW0yGSS34UyHCX6VfI_Sva2vb1fvlqDXzzsYNNu1Dbj-YF9B3pGfkPlUwN-H)
+>![friends](https://psv4.userapi.com/c856428/u164438461/docs/d4/8b6cae595799/Opera_Snimok_2020-02-22_234142_localhost.png?extra=upoeXt0Xv1SBli7H0t-0661vSmSQvgpa-MT8ybzTnp8Cnpbqs7WMyPiC1fU-OwMUJxT7n7S_jllYftlfjz7ocq9fSZUBlS9H9iC7bFM6RF_9kir6xIoFft1_Bo-dLniE6z8aN2U8tilwxaintSA7WcA)
 
 Getting started
 =================
