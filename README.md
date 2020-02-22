@@ -21,7 +21,8 @@ Getting started
 
 * Clone this repo
 * `npm install` to install all req'd dependencies (also you need to intstall dependencies in folder 'client')
-* `npm run dev` to start development
+* `npm run dev:server` to start server
+* `npm run dev:client` to start client
 
 About Project
 ================
